@@ -1,6 +1,8 @@
 # Fonts Overlay
 
-This overla is for fontsets related ebuilds.
+[![Build Status](https://travis-ci.org/Dr-Terrible/fonts-overlay.png)](https://travis-ci.org/Dr-Terrible/fonts-overlay)
+
+This overlay offers fontsets related ebuilds.
 
 
 ### Installing the overlay
