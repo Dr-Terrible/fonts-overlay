@@ -1,11 +1,10 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 inherit font
 
-DESCRIPTION="Badhead typefaces suitable for branding, logotypes, or any design with strong and elegant touch."
+DESCRIPTION="Typefaces suitable for branding, logotypes, or any design with elegant touch"
 HOMEPAGE="http://ianmikraz.com"
 SRC_URI="http://pixelbuddha.net/sites/default/files/freebie/freebie-archive-1427098078.zip"
 
