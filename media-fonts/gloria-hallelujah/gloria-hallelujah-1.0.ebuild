@@ -1,22 +1,14 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Fonts Overlay Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-inherit font
+EAPI=7
+inherit google-fonts
 
 DESCRIPTION="This font is based on the handwriting of a Korean high school student"
 HOMEPAGE="http://www.kimberlygeswein.com"
-SRC_URI="http://www.google.com/fonts/download?kit=arxgS292ade0M86y2fSGafomiPJVUWlZDkpzTy57LNo -> ${P}.zip"
 
 LICENSE="OFL-1.1"
-SLOT="0"
-KEYWORDS="amd64 x86 arm"
+KEYWORDS="amd64 arm x86"
 IUSE=""
 
-S="${WORKDIR}"
-
-FONT_SUFFIX="ttf"
-FONT_S="${S}"
-
-# Only installs fonts
-RESTRICT="binchecks strip test mirror"
+DOCS=( "${FONT_S}"/OFL.txt )
