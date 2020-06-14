@@ -1,24 +1,24 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Fonts Overlay Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 inherit font
 
-GF_ID="4ozF6MzjnDLW7G0aKe2bkTqy0YPSWWIczvXDfclDmfg"
+ECOMMIT="49fbebd3dc75d42fe72c4a3eef6524f8fcc335fd"
 
 DESCRIPTION="Libre Baskerville is a web font optimized for body text."
 HOMEPAGE="http://www.impallari.com/projects/overview/libre-baskerville"
-SRC_URI="http://www.google.com/fonts/download?kit=${GF_ID} -> ${P}.zip"
+SRC_URI="https://github.com/google/fonts/archive/${ECOMMIT}.tar.gz"
 
 LICENSE="OFL-1.1"
 SLOT="0"
-KEYWORDS="amd64 x86 arm"
+KEYWORDS="amd64 arm x86"
 IUSE=""
 
-S="${WORKDIR}"
+S="${WORKDIR}/fonts-${ECOMMIT}"
 
 FONT_SUFFIX="ttf"
-FONT_S="${S}"
+FONT_S="${S}/ofl/${PN/-/}"
 
 # Only installs fonts
 RESTRICT="binchecks strip test mirror"
