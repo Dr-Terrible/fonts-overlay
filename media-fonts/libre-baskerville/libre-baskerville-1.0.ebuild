@@ -11,6 +11,7 @@ HOMEPAGE="http://www.impallari.com/projects/overview/libre-baskerville"
 SRC_URI="https://github.com/google/fonts/archive/${ECOMMIT}.tar.gz"
 
 LICENSE="OFL-1.1"
+SLOT="0"
 KEYWORDS="amd64 arm x86"
 IUSE=""
 
