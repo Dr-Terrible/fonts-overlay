@@ -1,22 +1,21 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Fonts Overlay Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 inherit font
 
-#MY_PN="Ancient Fonts"
-#MY_P="${MY_PN}-${PV}"
 DESCRIPTION="Unicode Fonts for Ancient Scripts"
-HOMEPAGE="http://users.teilar.gr/~g1951d/"
+HOMEPAGE="https://dn-works.com/ufas"
 SRC_URI="mirror://debian/pool/main/t/ttf-ancient-fonts/ttf-ancient-fonts_${PV}.orig.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="amd64 arm x86"
 IUSE=""
-
-RESTRICT+=" mirror"
 
 FONT_SUFFIX="otf ttf"
 FONT_S="${WORKDIR}/ttf-ancient-fonts-${PV}.orig"
 S=${FONT_S}
+
+# Only installs fonts
+RESTRICT="binchecks strip test mirror"
