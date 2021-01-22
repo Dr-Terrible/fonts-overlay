@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Fonts Overlay Authors
+# Copyright 1999-2021 Fonts Overlay Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
