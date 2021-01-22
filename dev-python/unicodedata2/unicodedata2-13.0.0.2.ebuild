@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 inherit distutils-r1
 
@@ -13,7 +13,6 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P/.2/.post2}.tar.gz"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-IUSE=""
 
 S="${WORKDIR}/${P/.2/.post2}"
 
