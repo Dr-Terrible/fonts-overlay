@@ -10,6 +10,7 @@ dev-python/setuptools_git_ls_files 0.1.2: Setuptools plugin to list all files tr
 dev-python/ufo2ft 2.19.1: A bridge from UFOs to FontTools objects (and therefore OTFs and TTFs)
 dev-python/ufoLib2 0.11.1: A library to deal with UFO font sources
 dev-python/unicodedata2 13.0.0.2: Unicodedata backport/updates to Python 3 and 2
+media-fonts/academicons 1.9.1: An icon font for academics
 media-fonts/alegreya 2.003: Alegreya is a typeface originally intended for literature
 media-fonts/ancient-fonts 2.60: Unicode Fonts for Ancient Scripts
 media-fonts/badhead 1.0-r1: Typefaces suitable for branding, logotypes, or any design with elegant touch
